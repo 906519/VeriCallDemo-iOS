@@ -1,0 +1,11 @@
+framework module VeriCallOTP {
+  umbrella header "VeriCallOTP.h"
+
+  export *
+  module * { export * }
+}
+
+module VeriCallOTP.Swift {
+    header "VeriCallOTP-Swift.h"
+    requires objc
+}
