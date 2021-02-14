@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31F76D2471965EF294373506 /* Pods_VericallOTPDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA6AE10F6F7022552F5DA01C /* Pods_VericallOTPDemo.framework */; };
 		C4CCA022258A143600437922 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CCA021258A143600437922 /* AppDelegate.swift */; };
 		C4CCA024258A143600437922 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CCA023258A143600437922 /* SceneDelegate.swift */; };
 		C4CCA026258A143600437922 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CCA025258A143600437922 /* ViewController.swift */; };
 		C4CCA029258A143600437922 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4CCA027258A143600437922 /* Main.storyboard */; };
 		C4CCA02B258A143800437922 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4CCA02A258A143800437922 /* Assets.xcassets */; };
 		C4CCA02E258A143800437922 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4CCA02C258A143800437922 /* LaunchScreen.storyboard */; };
-		C4CCA038258A146200437922 /* VeriCallOTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4CCA036258A145D00437922 /* VeriCallOTP.framework */; };
-		C4CCA039258A146200437922 /* VeriCallOTP.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C4CCA036258A145D00437922 /* VeriCallOTP.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +23,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				C4CCA039258A146200437922 /* VeriCallOTP.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -32,6 +30,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		032BE7B8DBB2AE83CAB970A0 /* Pods-VericallOTPDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VericallOTPDemo.release.xcconfig"; path = "Target Support Files/Pods-VericallOTPDemo/Pods-VericallOTPDemo.release.xcconfig"; sourceTree = "<group>"; };
+		0B0FAC6423BA45F324D5C3FA /* Pods-VericallOTPDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VericallOTPDemo.debug.xcconfig"; path = "Target Support Files/Pods-VericallOTPDemo/Pods-VericallOTPDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		C4CCA01E258A143600437922 /* VericallOTPDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VericallOTPDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4CCA021258A143600437922 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4CCA023258A143600437922 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		C4CCA02A258A143800437922 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4CCA02D258A143800437922 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4CCA02F258A143800437922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C4CCA036258A145D00437922 /* VeriCallOTP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VeriCallOTP.framework; sourceTree = "<group>"; };
+		DA6AE10F6F7022552F5DA01C /* Pods_VericallOTPDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VericallOTPDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,18 +48,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4CCA038258A146200437922 /* VeriCallOTP.framework in Frameworks */,
+				31F76D2471965EF294373506 /* Pods_VericallOTPDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17E691E5EC9EBC6657A9F716 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA6AE10F6F7022552F5DA01C /* Pods_VericallOTPDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3BED4504A2B29DDB68FEAD23 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B0FAC6423BA45F324D5C3FA /* Pods-VericallOTPDemo.debug.xcconfig */,
+				032BE7B8DBB2AE83CAB970A0 /* Pods-VericallOTPDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C4CCA015258A143600437922 = {
 			isa = PBXGroup;
 			children = (
 				C4CCA020258A143600437922 /* VericallOTPDemo */,
 				C4CCA01F258A143600437922 /* Products */,
+				3BED4504A2B29DDB68FEAD23 /* Pods */,
+				17E691E5EC9EBC6657A9F716 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,7 +94,6 @@
 		C4CCA020258A143600437922 /* VericallOTPDemo */ = {
 			isa = PBXGroup;
 			children = (
-				C4CCA036258A145D00437922 /* VeriCallOTP.framework */,
 				C4CCA021258A143600437922 /* AppDelegate.swift */,
 				C4CCA023258A143600437922 /* SceneDelegate.swift */,
 				C4CCA025258A143600437922 /* ViewController.swift */,
@@ -93,10 +112,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C4CCA032258A143800437922 /* Build configuration list for PBXNativeTarget "VericallOTPDemo" */;
 			buildPhases = (
+				5BBBE33B1CBFA0526A72B351 /* [CP] Check Pods Manifest.lock */,
 				C4CCA01A258A143600437922 /* Sources */,
 				C4CCA01B258A143600437922 /* Frameworks */,
 				C4CCA01C258A143600437922 /* Resources */,
 				C4CCA03A258A146200437922 /* Embed Frameworks */,
+				FB718EE413FF9A4900A19674 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +172,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5BBBE33B1CBFA0526A72B351 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VericallOTPDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB718EE413FF9A4900A19674 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VericallOTPDemo/Pods-VericallOTPDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VericallOTPDemo/Pods-VericallOTPDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VericallOTPDemo/Pods-VericallOTPDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C4CCA01A258A143600437922 /* Sources */ = {
@@ -303,6 +366,7 @@
 		};
 		C4CCA033258A143800437922 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B0FAC6423BA45F324D5C3FA /* Pods-VericallOTPDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -328,6 +392,7 @@
 		};
 		C4CCA034258A143800437922 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 032BE7B8DBB2AE83CAB970A0 /* Pods-VericallOTPDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

@@ -1,0 +1,16 @@
+PODS:
+  - VeriCallOTP (1.0.0)
+
+DEPENDENCIES:
+  - VeriCallOTP (from `https://github.com/906519/VeriCallSDK-iOS/raw/master/VeriCallOTP.podspec`)
+
+EXTERNAL SOURCES:
+  VeriCallOTP:
+    :podspec: https://github.com/906519/VeriCallSDK-iOS/raw/master/VeriCallOTP.podspec
+
+SPEC CHECKSUMS:
+  VeriCallOTP: ee39fd27277df37e0bfe5bb76c16594898ea5081
+
+PODFILE CHECKSUM: 6f207fe35a1f259890f2d8d10a1d1b8fce823a1e
+
+COCOAPODS: 1.8.4
